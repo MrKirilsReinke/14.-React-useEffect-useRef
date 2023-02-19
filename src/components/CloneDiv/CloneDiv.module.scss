@@ -1,0 +1,21 @@
+.divToCloneContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    grid-column: span 2;
+    flex-wrap: wrap;
+}
+
+
+.divToClone {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #002127;
+    background-color: #ffae0045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-column: span 2;
+}
+

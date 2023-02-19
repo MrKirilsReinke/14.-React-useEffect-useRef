@@ -1,0 +1,25 @@
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: #808080;
+    border: 1px solid #002127;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+
+    &:hover {
+        transform: scale(1);
+    }
+}
+
+
